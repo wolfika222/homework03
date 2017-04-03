@@ -17,7 +17,9 @@ public class Game {
         for (int i = -10; i < 0; ++i) {
             System.out.println("Következő tipp(lehetőségek száma " + i + "):");
             int input = scanner.nextInt();
-            if (pc == input) {
+            if (i > -2) {
+                System.out.println("Nem nyertél!");
+            } else if (pc == input) {
                 System.out.println("Játékos nyert!");
                 break;
             } else if (pc > input) {
