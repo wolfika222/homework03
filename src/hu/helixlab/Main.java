@@ -19,6 +19,11 @@ public class Main {
 
         System.out.println(PasswordGenerator.generatePassword(10));
         */
-        Game.playBarchobaWithNumbers();
+        //Game.playBarchobaWithNumbers();
+
+        Temperature temperature = new Temperature();
+        temperature.getTemperatureDataFromConsole();
+        temperature.printHighestTemperature();
+        temperature.printLowestTemperature();
     }
 }
