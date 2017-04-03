@@ -9,7 +9,7 @@ public class PasswordGenerator {
 
 
     public static String generatePassword(int length) {
-        String alpha = ("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!%?");
+        String alpha = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!%?";
         int number = alpha.length();
         String result = new String();
         Random password = new Random();
