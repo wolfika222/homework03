@@ -19,7 +19,7 @@ public class User {
         Random random = new Random();
         this.username = username;
         this.id = random.nextInt();
-        this.password = id + username + id;
+        this.password = PasswordGenerator.generatePassword(8);
     }
 
 
