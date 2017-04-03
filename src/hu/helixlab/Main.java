@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-
+/*
         User user1 = new User("Jóska");
         System.out.println(user1.toString());
 
@@ -17,6 +17,8 @@ public class Main {
             System.out.println((new User("Gábor")).toString());
         }
 
-       // System.out.println(PasswordGenerator.generatePassword(10));
+        System.out.println(PasswordGenerator.generatePassword(10));
+        */
+        Game.playBarchobaWithNumbers();
     }
 }
