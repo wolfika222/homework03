@@ -22,8 +22,8 @@ public class Temperature {
     }
 
     public void printHighestTemperature() {
-        max = arrayTemp[1];
-        for (int i = 0; i < arrayTemp.length; ++i) {
+        max = arrayTemp[0];
+        for (int i = 1; i < arrayTemp.length; ++i) {
             if (arrayTemp[i] > max) {
                 max = arrayTemp[i];
             }
@@ -32,8 +32,8 @@ public class Temperature {
     }
 
     public void printLowestTemperature() {
-        min = arrayTemp[1];
-        for (int i = 0; i < arrayTemp.length; ++i) {
+        min = arrayTemp[0];
+        for (int i = 1; i < arrayTemp.length; ++i) {
             if (arrayTemp[i] < min) {
                 min = arrayTemp[i];
             }
